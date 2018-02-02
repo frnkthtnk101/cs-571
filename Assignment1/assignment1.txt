@@ -1,0 +1,50 @@
+Assignment 1 - Franco Pettigrosso
+1/26/2018 10:59 P.M.
+
+Q1: Describe when the shell invokees .bashrc, and when it invokes .bash_profile.
+.bash_profile is invoked when bash is invoked as an interactive login shell, or as a non-interactive shell with the --login option. --nonprofile option may be used when the shell is stared to inhibit this behavior. .bashrc is invokes when a interactive shell that is not a login shell is started.
+Q2:Complete all edits in this file, as direct by the file, save the file as vi_assignment, and submit it alon with the rest of your assignment by checking it into your git repository. [done]
+Q3:Do an ls -l. what do you see?
+When I do an ls -l, I see a total size of all the files, a column that shows the type of file and privileges, a column for the number of line, the owners name, group name, bytes, a last modified date, and finally the name of the file 
+Q4:If you enter chmod 644 some_file , what permissions you give to whom?
+you get read and write, the group gets read, and the world gets read.
+Q5: If you enter chmod 755 some_file, what permissions everyone gets?
+you get everyting, the group gets read and execute, and the world get read and execute
+Q6: Can you read your Funny file?
+yes 
+Q7: Can you read your hello.bash file?
+Yes
+Q8: were you successful?
+nope
+Q9: What are two ways to give your execute permissions to this file?
+	chmod 700, chmood 500, chmod, 300.
+q10: what happened? permission denied because i do not have the right levels
+q11:what is the output of each of these?
+	1) shows everything
+	2) shows only annoy and annoy.cc
+	3) shows only telecomtruths, itemslist, itemlist-2cols
+	4) only shows annoy
+	5) ls:annoy?: No such file or directory
+q12: what happened?
+two files are created and are ready to be edited in vim. with the whack, its one file.
+q13: Record each output
+	- no such file or directory
+	-Is a < b?
+	-$USER is francopettigrosso
+	-Today is Fir Jan 26 22:07:19 EST 2018
+	-Today is Fir Jan 26 22:07:49 EST 2018
+	-Today is `date`
+	-ls: e*: No such file or directory
+	 Files that start w/e:
+q14:What is the difference between sort itemslis-2cols and sort -n itemslis-2cols?
+the regualr sort goes off the first char in the line as the -n seems to put the list in numerical order.
+q15:How would you list the 8 items in itelmlsit-2cols with highest, in descinf order.
+sort -nr itemList-2cols | head -4
+q16: the tar file is gone. What is in its place?
+test.tar.gz
+q17:what happened to the *.tgz file?
+it turned to a tar
+q18:Show the grep command used to find if any files in this lab directory mention "Vacation".
+grep Vacation *
+q19:Enter the find command you used above here:
+find . -name "assignment1"
