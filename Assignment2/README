@@ -1,0 +1,33 @@
+###################
+##MAKEFILE      ##
+#################
+
+Franco Pettigrosso
+
+TOC
+++++++++++++++++++++++++
+	intro
+	details
+	Note
+++++++++++++++++++++++++
+
+INTRO
+++++++++++++++++++++++++
+makfile is a compile script that is made for Assignment 2. Hopefully I followed the directions to the T.
+
+DETAILS
+++++++++++++++++++++++++
+$(EXE) creates an c program called foo
+foo.o creates an object file called foo.o that is dependent on foo.c and foo.h
+main.o crates and object file called main.o that is dependent on main.c and foo.h
+run-c is a phony target that runs foo
+run-py is a phony target that runs foo.py
+foo.class creates a class file called foo.class that is dependent on foo.java
+run-java is a phony target that runs foo and outputs it too test.out
+test-java is a phony target that is used to check the foo is giving the right output
+clean cleans up all the build files
+
+NOTE
++++++++++++++++++++++++++
+coming from a windows environment, This is much easier to work with. I find guis tend to slo down making programs. 
+"big fat phony" is a reference to family guy
