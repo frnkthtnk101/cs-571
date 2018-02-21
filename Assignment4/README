@@ -1,0 +1,32 @@
+##################
+##Playing it safe#
+##################
+
+Franco Pettigrosso
+
+TOC
+++++++++++++++++++++++++
+	intro
+	details
+	Note
+++++++++++++++++++++++++
+
+INTRO
+++++++++++++++++++++++++
+ the safe way of deleting things.
+DETAILS
+++++++++++++++++++++++++
+	saferm.sh
+The Script grabs the file in the 1st paramter and its pos. Then it compresseses
+the two things in the /.JUNK folder in your home directory... due note that the
+script will delete everything that has been past 2 days since it was put in the
+junk folder only when saferm.sh is called. removal of old files is done after a
+file is compressed.
+	recover.sh
+The Script decrompresses a zip folder in the /.JUNK folder that you selected....
+the file will be put back to its orginal spot. Deletion of older files will happ
+en when it saves a file.
+NOTES
+++++++++++++++++++++++++
+love it. just wish i could figure out how to do the hout minutes and seconds. I
+was running out of time.
