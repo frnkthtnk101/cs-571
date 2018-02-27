@@ -1,0 +1,22 @@
+##################
+##GRADE ANALYIZER##
+##################
+
+Franco Pettigrosso
+
+TOC
+++++++++++++++++++++++++
+	intro
+	details
+	Note
+++++++++++++++++++++++++
+
+INTRO
+++++++++++++++++++++++++
+	used to analyize grades in a gradebook. The script can only go up to 5 scores. Score_5 is considered the final test.
+DETAILS
+++++++++++++++++++++++++
+	the grades tab should delimited by a space. 
+NOTES
+++++++++++++++++++++++++
+	none, the scripts should run as directed in the homework.
