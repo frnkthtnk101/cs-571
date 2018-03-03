@@ -1,0 +1,40 @@
+##################
+## template     ##
+##################
+
+Franco Pettigrosso
+
+TOC
+++++++++++++++++++++++++
+	intro
+	details
+	Note
+++++++++++++++++++++++++
+
+INTRO
+++++++++++++++++++++++++
+	q1.py - q4.py are a series of python scripts to manipulate student files.
+	
+DETAILS
+++++++++++++++++++++++++
+	q1.py
+	-Reads in a file for an argument
+	-adds the scores together
+	-prints the name and average
+	-delimeter is a " "
+	
+	q2.py
+	-like q1.py but takes the delimeter of ","
+
+	q3.py
+	-takes in a file of students and there ids
+	-them in a dictionary
+	-sorts them
+	-prints the dictionary in order
+	-the delimeter is ""
+
+	q4.py
+	-same as of q3.py but uses stdin	
+NOTES
+++++++++++++++++++++++++
+	no comment.	
