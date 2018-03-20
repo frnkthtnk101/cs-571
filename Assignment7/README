@@ -1,0 +1,34 @@
+##################
+## calculator   ##
+##################
+
+Franco Pettigrosso
+
+TOC
+++++++++++++++++++++++++
+	intro
+	details
+	Note
+++++++++++++++++++++++++
+	
+Approach of the problem
+++++++++++++++++++++++++
+	The first thign I did was to read the problem a couple times.
+I googled things I did not understand such as "third order polynomial". 
+To dive deeper into the question, I check the class discussion to find more information and lucky enough I did.
+
+	I tried to keep the program simple and convient to work with. The program wiask you for values a the will give you the results
+
+	My program only has one function called "get_value". its only purpose is to 
+make sure that the user inputs an integer only. THe program then prints out the first set of values.
+Then, the program just adds the values together (see lines 20 - 21) then print out the results.
+HOw to use it
+++++++++++++++++++++++++
+	1) go to the directory where the program resides
+	2) type python A7.py
+	3) follow prompt
+testing done on it
+++++++++++++++++++++++++
+i basically ran it through the first three rows of what was the example.
+Since it doesnt really make a difference of what of values you put. I just
+put random number for each variabe and just make sure the numbers added up right.
