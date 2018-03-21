@@ -17,16 +17,21 @@ Approach of the problem
 I googled things I did not understand such as "third order polynomial". 
 To dive deeper into the question, I check the class discussion to find more information and lucky enough I did.
 
-	I tried to keep the program simple and convient to work with. The program wiask you for values a the will give you the results
+	I tried to keep the program simple and convient to work with. The program will ask you for values a the will give you the results.
+You can aslo give the program arguements. good for putting the results into a file.
 
 	My program only has one function called "get_value". its only purpose is to 
 make sure that the user inputs an integer only. THe program then prints out the first set of values.
 Then, the program just adds the values together (see lines 20 - 21) then print out the results.
 HOw to use it
 ++++++++++++++++++++++++
+	The non-Arg way
 	1) go to the directory where the program resides
 	2) type python A7.py
 	3) follow prompt
+	The Arg way
+	run this command : python A7.py 10 10 10 10 10
+	NOTE you can put as many values as you want but it will only work the first 5.
 testing done on it
 ++++++++++++++++++++++++
 i basically ran it through the first three rows of what was the example.
